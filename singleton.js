@@ -1,5 +1,3 @@
-const assert = require('assert')
-
 const singleton = (function(){
   function globalState() {
     this.loggedInUsers = 0
